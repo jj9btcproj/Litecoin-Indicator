@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Litecoin Market Price Indicator
+Comment=Market price Indicator for litecoin
+Exec=python /home/j2/.local/share/applications/ltc-price-indicator.py
+Icon=/home/j2/.local/share/applications/litecoinicon.png
+Categories=GNOME;Application;Network;
+Type=Application
+Terminal=false
+X-Ayatana-Desktop-Shortcuts=Regular;
+Name[en_US]=Litecoin Market Price Indicator
+
+
