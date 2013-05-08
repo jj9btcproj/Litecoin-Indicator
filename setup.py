@@ -34,6 +34,9 @@ else:
     indTemp =dirIn+"/litecoin-price-indicator.py"
     deskTemp =dirIn+"/litecoin-price-indicator.desktop"
 
+
+	subprocess.call(['./makeDesktopFile.sh'])
+
     if not os.path.exists(HOME+"/.config/autostart/"):
 		subprocess.call(["mkdir", HOME+"/.config/autostart/"])
     
@@ -43,8 +46,6 @@ else:
     shutil.copyfile(iconTemp,ICON)
     shutil.copyfile(indTemp,INDICATORFILE)
     shutil.copyfile(deskTemp,DESKTOPFILE)
-
-
 
     try:
         print 'Make settings file :',SETTINGSFILE
