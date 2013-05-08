@@ -56,6 +56,8 @@ second line is a boolean (true or false) for toggling the display of btc-e data
 
 How to setup a launcher:
 -------------------------------------------------------
+- make a desktop file by running makeDesktopFile.sh
+	sh makeDesktopFile.sh
 -drag the desktop file into the launcher bar
 
 
